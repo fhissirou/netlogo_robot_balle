@@ -50,8 +50,9 @@ De base, il a été développé en Java par l’Université Northwestern pour de
 et de nos jours Netlogo est beaucoup utilisé dans le milieu professionnel et cela est dû à sa maniabilité. 
 Il permet de modéliser des phénomènes sans pour autant avoir des connaissances approfondies en programmation. 
 Il est particulièrement adapté à la modélisation de systèmes complexes sur un parcours de temps.
-![](images/image02.png)
-
+---
+| ![](images/image02.png) |
+---
 ## 3. Description du modèle
 Dans le cadre du cours du système multiagents, il nous a été demandé de simuler des robots ramasseurs de balles. 
 La simulation à base d’agents a été largement utilisée pour modéliser des phénomènes complexes comme par exemple le ramassage des balles de tennis ou golf, des phénomènes sociaux, biologiques, géographiques... 
