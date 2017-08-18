@@ -58,7 +58,7 @@ Ils devraient être capables de transportés une à deux balles en même temps, 
 De ce fait, lorsqu’il rencontre une troisième balle, les agents devraient se voir dans l’obligation d’abandonner ce tas. 
 Le programme doit compter le nombre de tas formés par chaque robot et l’afficher l’ensemble de ces résultats dans un plot.
 
-## 4. Solution proposé
+## 4. Modèle proposé
 Le programme comprend deux parties : l’initialisation par la fonction setup et la boucle par la fonction go. 
 L’étape d’initialisation dans le logiciel Netlogo est très importante pour le bon déroulement du programme. 
 Ce programme contient l’initialisation des robots mobiles dont le nombre total dépend de l’utilisateur avec un nombre compris entre 1 à 100 et l’initialisation des balles qui se font aléatoirement et repartie sur toute la surface. 
