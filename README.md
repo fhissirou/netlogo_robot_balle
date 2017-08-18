@@ -1,10 +1,6 @@
 # Robot Ramasseurs De Balles
 ---
 
-|               Fodé HISSIROU               |
----
-
-
 ## 1. Introduction
 
 
