@@ -5,9 +5,17 @@
 ---
 
 
-## Objectif
+## Introduction
 
-- Mise en place d'un système ou d'une platforme pour permettre de la mise en relation entre les clients et l'entreprise en recherche des main d'oeuvre disponibles sur le marché.
+
+### Systèmes multi-agents
+
+-  systèmes multi-agent sont composés d’entités informatiques distribuées qui interagissent entre elles. 
+Il détermine les règles permettant de concevoir des systèmes intelligence artificiel fondé sur des règles. 
+Il s’intéresse aux comportements collectifs produits par des interactions de plusieurs entités autonomes et flexibles.
+Ces entités peuvent opérer de façons collectives pour accomplir les tâches complexes. 
+Malgré que les caractéristiques de modélisation dépendent de l’application, 
+mais il y a bien certains caractéristiques qui sont commune aux agents : La coopération, la coordination et la communication.
 
 ## Les prescriptions techniques 
 
