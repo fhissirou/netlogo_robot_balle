@@ -28,7 +28,7 @@ Concevoir le site Workfoce en tenant compte des aspects
 
 ![](images/image01.png)
 
-#####  b.1. - Les agents cognitifs
+#####  b.1. Les agents cognitifs
 sont fondés sur la coopération d’agents capables à eux  seuls d’effectuer des opérations complexes. 
 Un système cognitif comprend un petit nombre d’agents qui disposent d’une capacité de raisonnement sur une base de connaissances 
 pour traiter les informations diverses liées au domaine d’applications.
@@ -77,8 +77,5 @@ Afin de mieux comprendre le déroulement du programme, j’ai réalisé un organ
 Une idée que je trouve intéressant pour améliorer ce projet serais de gérer la communication pour éviter les collisions entre les robots eux. De plus, gérer des pertes d’énergie des robots.
 
 ## Conclusion 
-En conclusion, Ce programme permet de simuler des robots complément autonomes pour détecter et ramasser des balles pour former un tas.
+En conclusion, Ce programme permet de simuler des robots complètement autonomes pour détecter et ramasser des balles afin de former des tas de taille différents.
 D'un point de vue plus général, Ce projet a grandement consolidé mes connaissances sur les notions d’agents cognitifs et réactifs dans le domaine de systèmes multi-agents.
-
-
-
