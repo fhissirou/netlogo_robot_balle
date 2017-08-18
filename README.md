@@ -26,7 +26,7 @@ Cependant, les agents peuvent être classés en deux catégories principales sel
 afin de séparer les agents dites « intelligents »  des agents moins « intelligents ». 
 On parle donc des agents cognitifs et agents réactifs.
 
-    ![](images/image01.png)
+![](images/image01.png)
 
 #####  b.1. Les agents cognitifs
 Les agents cognitifs sont fondés sur la coopération d’agents capables à eux  seuls d’effectuer des opérations complexes. 
@@ -51,8 +51,8 @@ et de nos jours Netlogo est beaucoup utilisé dans le milieu professionnel et ce
 Il permet de modéliser des phénomènes sans pour autant avoir des connaissances approfondies en programmation. 
 Il est particulièrement adapté à la modélisation de systèmes complexes sur un parcours de temps.
 
-    ![](images/image02.png)
-
+| ![](images/image02.png) |
+---
 ## 3. Description du modèle
 Dans le cadre du cours du système multiagents, il nous a été demandé de simuler des robots ramasseurs de balles. 
 La simulation à base d’agents a été largement utilisée pour modéliser des phénomènes complexes comme par exemple le ramassage des balles de tennis ou golf, des phénomènes sociaux, biologiques, géographiques... 
@@ -70,12 +70,12 @@ Dans la boucle go le programme parcourt chaque robot et vérifie le voisinage au
 Lorsqu'il rencontre une troisième, alors il considère comme que les trois balles sont lourdes à transport 
 et il abandonnait ce tas pour faire une rotation de 180 degrés qui correspondent à la direction opposée de l'étape précédente. 
 
-    ![](images/image03.png)
+![](images/image03.png)
 
 ## 5. Diagramme de l’algorithme
 Pour mieux comprendre le déroulement du programme, j’ai réalisé un organigramme du programme.
 
-    ![](images/image04.png)
+![](images/image04.png)
 
 ## Conclusion 
 En conclusion, Ce programme permet de simuler des robots complètement autonomes pour détecter et ramasser des balles afin de former des tas de taille différents.
