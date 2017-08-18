@@ -1,29 +1,82 @@
 # WorkforceWeb
 ---
 
-|               Fodé HISSIROU               |
+|   Ngoc Hoan NGUYEN     &   Fodé HISSIROU           |
 ---
 
 
-## Sujet
+## Objectif
 
-- Dans le cadre du cours de système multi-agents, il nous a été demandé de simuler  des robots ramasseurs de balles. La simulation à base d’agents ont été largement utilisé pour modéliser des phénomènes complexes comme par exemple le ramassage des balles de tennis ou golf, des phénomènes sociaux, biologiques, géographiques... Cependant, dans la réalisation de cette simulation plusieurs contraintes ont été imposés. Des robots capable d’effectuer en toute autonomie de trouver des balles et les transportes pour former un tas composé de trois balles. Ils devraient être capables de transportés une à deux balles en même temps, et devraient être aussi dans l’impossibilité de transporté trois balles en même temps. De ce fait, lorsqu’il rencontre une troisième balle, les agents devraient se voir dans l’obligation d’abandonné ce tas. Le programme doit compter le nombre de tas formés par chaque robots et l’afficher l’ensemble de ces résultats dans un plot.
+- Mise en place d'un système ou d'une platforme pour permettre de la mise en relation entre les clients et l'entreprise en recherche des main d'oeuvre disponibles sur le marché.
 
-## Outil pédagogique 
+## Les prescriptions techniques 
 
-- Un des outils largement utilisé pour la simulation des système multi-agent est le logiciel Netlogo qui est un logiciel opensource fourni sous la licence GPL.  Il est à la fois un langage de programmation et un environnement de modélisation pour le développement des systèmes multi-agents. De base, il été développé en Java par l’Université Northwestern pour des fins pédagogiques, et de nos jours Netlogo est beaucoup utilisé dans le milieu professionnel et cela est dû à la facilité d’utilisation qui permet de modéliser des phénomènes sans pour autant avoir des connaissances approfondie en programmation. Il particulièrement adapté à la modélisation de systèmes complexes sur un parcours de temps.
+Concevoir le site Workfoce en tenant compte des aspects
+
+- Type des technologies: Web
+
+- CMS: Drupal 8
+
+- Fonctionnement: JQuery, JavaScript
+
+- Type de programmation: PHP, Synfony 3
+
+- Type de base de donnée : MongoDB
+
+- Type d'analytiques : Google, Webmaster Tools
+
+- Système de protection Anti spammer
+
+- Référencement du site
+
+- Accessibilité aux réseaux sociaux : Facebook, Twitter, Linkedin
+
+- Système de paiment en ligne : PayPal, Amazon paiement , (bancaire optionnel).
+
+- Système d'authentification : OAuth
+
+- IDE : MySQLWorkBench, Visual Code
 
 
-## Systèmes multi-agents: 
+## Le développement de la platforme : 
 
-- Les systèmes multi-agent sont composées d’entités informatiques distribuées qui interagissent entre elles. Il détermine les règles permettant de concevoir des systèmes intelligence artificiel fondé sur des règles. Il s’intéresse aux comportement collectifs produits par des interactions de plusieurs entités autonomes et flexibles. Ces entités peuvent opérer de façons collective pour accomplir les tâches complexes. Malgré que les caractéristiques de modélisation dépendent de l’application, mais il ya bien certains caractéristiques qui sont commune aux agents : La coopération, la coordination et la communication
 
-### Un agent:
+### BackEnd :
+------------
 
-- C’est une entité autonome, réelle ou abstraite qui est capable d’agir sur elle-même et sur son environnement, qui, dans un univers multi-agents, peut communiquer avec d’autres agents et dont le comportement est la conséquence de ses observations, de ses connaissances et des interactions avec d’autres agents. Ce pendant, les agents peuvent être classés en deux catégories principales selon leur comportement et leur complexité de raisonnement afin de séparer les agents dites « intelligents »  des agents moins « intelligents ». On parle donc des agents cognitifs et agents réactifs
+##### - La refonte, conception et la réalisation de la platforme web en tenant compte de la mise à jour du noyau du CMS.
 
-- Les agents cognitifs sont fondés sur la coopération d’agents capables à eux  seuls d’effectuer des opérations complexes. Un système cognitif comprend un peitit nombre d’agents qui disposent d’une capacité de raisonnement sur une base de connaissances pour traiter les information diverses liées au domaine d’applications. Ces types d’agents peuvent être assimilé à des systèmes experts distribués. 
 
-- Un agent réactif évolue parmi un nombre important de ses semblables et c’est le résultat des interactions entre leur activité qui donne une impression de comportement global « intelligent ». Ces agents de ne possèdent de représentations de leur environnement. De ce fait toutes les informations relatives à leur comportement se trouvent dans l’environnement et leurs réactions dépendant uniquement de la perception qu’ils peuvent en avoir.
+##### - Trois types de compte : Admin, partenaire, utilisateur : 
 
+		1.	Admin : Doit avoir la possibilité effectuée toute opération  et la visibilité globale sur le platforme. il  s'occupe de la gestion du web (mise a jour, sauvergades des données, sécurisation, ...) et tout types de taches liées au bon fonctionnement de la plateforme.
+		2.  Partenaire sont les entreprises qui sont abonnées a laplateforme. Leurs accès aux offres devrait etre prioritaire selons leur statut abonnées, doivent avoir l'accès au offres selons leurs domaines. 
+		3. Utilisateur : publie l'offre sur platforme et l'admin tranfère leur offre aux partenaires compétentes. 
+		
+		
+##### - Mise en place d'un système de messagerie :
+
+		1. La mission est d'envoyer des appels d'offres aux partenaires
+		2. Envoi des mails de confirmation / evaluation aux clients
+		3. Système de notifications et de validations : une fois offre est diffusé aux partenaires, un questionnaire satisfaisant sera envoyé aux utilisateurs, et leur réponse sera envoyé aux partenaire. en cas d'annulation d'offre, le partenaire sera notifié de cette annulation
+
+##### - Base de donnée :	
+
+
+##### - Status d'offre dans la partie du partenaire:	
+	L'offre peut prendre 3 status différents qui sont gérés par différence couleur:
+	- rouge -> En attente d'être accepté par un partenaire
+	- jaune -> L'offre a été accepté et en attente d'être valider par le partenaire
+	- vert -> fin de process du status, avec un envoi de questionnaire 
+
+	Si jamais, l'offre a été validé par l'un de partenaire, alors les autres partenaire seront informés que l'offre n'est plus disponible.
+		
+##### - Partenaire :	
+	- Partenaire verra la description de l'offre et le code postal sans le contact de l'utilisateur.
+	- Pour accepter l'offre, le partenaire doit obligatoirement se connecter à son compter.	
+	- Si le crédit est 0 alors un bouton de recharge du crédit est disponible, Le partenaire doit acheter à nouveau crédit. 	- Une fois le crédit est disponible, il pourra faire l'accceptation et le décomptage du crédit disponible fera automatique de -1 de son crédit actuel. En suite, il verra le contact du client.
+	
+### FontEnd :
+------------
+	- se référer au template : JANGO
 
