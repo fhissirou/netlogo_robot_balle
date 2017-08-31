@@ -75,5 +75,5 @@ Pour mieux comprendre le déroulement du programme, j’ai réalisé un organigr
 
 ## Conclusion 
 En conclusion, Ce programme permet de simuler des robots complètement autonomes pour détecter et ramasser des balles afin de former des tas de taille différents.
-Une idée que je trouve intéressant pour améliorer ce projet serais de faire un système de communication pour éviter les collisions entre les robots eux. De plus, gérer des pertes d’énergie des robots.
+Une idée que je trouve intéressant pour améliorer ce projet serais de faire un système de communication pour éviter les collisions entre les robots. De plus, gérer des pertes d’énergie des robots.
 D'un point de vue plus général, Ce projet a grandement consolidé mes connaissances sur les notions d’agents cognitifs et réactifs dans le domaine de systèmes multi-agents.
